@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xmlns:util="http://www.springframework.org/schema/util"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd
+ http://www.springframework.org/schema/util
+ http://www.springframework.org/schema/util/spring-util.xsd">
+
+<util:properties id="ghfconfig">
+<prop key="driver">com.mysql.jdbc.driver</prop>
+<prop key="username">mudassir</prop>
+<prop key="password">shaikh@123</prop>
+<prop key="url">mysql:jdbc://localhost:3306/database</prop>
+</util:properties>
+
+
+
+<util:map map-class="java.util.HashMap" id="firstchoice">
+<entry key="shirt" value="800"/>
+<entry key="crocs" value="400"></entry>
+<entry key="jeans" value="1000"/>
+</util:map>
+
+
+<util:list list-class="java.util.LinkedList" id="bestproduce">
+<value>washing powder</value>
+<value>butter milk</value>
+<value>masala chicken</value>
+<value>cut vegetable</value>
+</util:list>
+
+<bean class="com.springbasic.standalone.supermart" name="super">
+<property name="product" ref="bestproduce"/>
+<property name="price" ref="firstchoice"/>
+<property name="property" ref="ghfconfig"/>
+</bean>
+
+ </beans>

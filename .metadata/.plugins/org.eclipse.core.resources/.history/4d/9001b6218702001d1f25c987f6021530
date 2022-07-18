@@ -1,0 +1,12 @@
+package stringconstructor;
+
+public class Stringmethod {
+
+	public static void main(String[] args) 
+	{
+	 String d="muzaffar";
+	//System.out.println(d.indexOf('z'));	
+    System.out.println(d.lastIndexOf('r'));
+    System.out.println(d.contains("g"));
+	}
+}

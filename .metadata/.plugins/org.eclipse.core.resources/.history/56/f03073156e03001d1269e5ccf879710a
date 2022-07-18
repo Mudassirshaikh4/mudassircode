@@ -1,0 +1,22 @@
+package stringconstructor;
+
+public class reverseprogram {
+
+	public static void main(String[] args) 
+	{
+	String g="master";
+    String rev="";
+	for(int a=g.length()-1;a>=0;a--)
+    {
+    	rev=rev+g.charAt(a);
+    }
+	if(g.equals(rev))
+	{
+		System.out.println("no is palindrome no");
+	}
+	else
+	{
+		System.out.println("no is not palindrome");
+	}
+	}
+}

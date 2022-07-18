@@ -1,0 +1,10 @@
+package exceptionhandlefold;
+
+public class practiceexception {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

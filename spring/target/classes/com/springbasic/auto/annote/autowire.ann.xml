@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context.xsd">
+<context:annotation-config/>
+
+<bean class="com.springbasic.auto.annote.Road" name="road">
+<property name="length" value="150"/>
+<property name="material" value="cement"/>
+<property name="days" value="sixty five"/>
+ </bean>
+
+<bean class="com.springbasic.auto.annote.Road" name="road1">
+<property name="length" value="155"/>
+<property name="material" value="stone"/>
+<property name="days" value="sixty nine"/>
+</bean>
+ 
+<bean class="com.springbasic.auto.annote.Location" name="loc">
+
+</bean>
+
+ </beans>

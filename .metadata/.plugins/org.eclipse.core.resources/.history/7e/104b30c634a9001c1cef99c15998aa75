@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>cookies</title>
+</head>
+<body>
+<form action="servletcookies" method="post">
+Name:<input type="text" name="user_name"/><br/>
+<input type="submit"value="done"/>
+</form>
+</body>
+</html>

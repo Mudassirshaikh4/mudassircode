@@ -1,0 +1,17 @@
+package com.lambda.eight;
+
+public class Optionexamp {
+
+	public static void main(String[] args)
+	{
+	 String st="martialarts";
+    if(st==null)
+    {
+    	System.out.println("this is empty");
+    }
+    else
+    {
+    	System.out.println(st.length());
+    }
+	}
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Form Page</title>
+<style>
+.Holder{
+width : 40%;
+border :1px solid black;
+margin:auto;
+padding:20px;
+font-size:20px;
+}
+#Form Home table tr td input{
+font-size:20px;
+}
+</style>
+</head>
+<body>
+<div class="Holder">
+<h1>Form Home</h1>
+<form action="submit" method="post">
+<table>
+<tr>
+<td>Enter your name :</td>
+<td><input type="text" name="user_name" placeholder="Enter here"/></td>
+</tr>
+<tr>
+<td>Enter your password</td>
+<td><input type="password" name="user_password" placeholder="Enter here"/></td>
+</tr>
+<tr>
+<td>Enter your emailid:</td>
+<td><input type="emailid" name="user_name" placeholder="Enter here"/></td>
+</tr>
+<tr>
+<td>Select Gender</td>
+<td><input type="radio" name="user_gender" value="male">male &nbsp; &nbsp; <input type="radio" name="user_gender" value="female"/>female</td>
+</tr>
+<tr>
+<td>
+Select your field
+</td>
+<td>
+<select name="user_field">
+<option value="sales">sales</option>
+<option value="marketing">marketing</option>
+<option value="production">production</option>
+<option value="accounts">accounts</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+<input type="checkbox" value="checked" name="condition"/>
+</td>
+<td>
+agree terms condition
+</td>
+</tr>
+<tr>
+<td>
+<button type="submit">Register</button>
+<button type="reset">Reset</button>
+</td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>

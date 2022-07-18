@@ -1,0 +1,15 @@
+package stringconstructor;
+
+public class Stringmethod {
+
+	public static void main(String[] args) 
+	{
+	 String d="muzaffar";
+	String g="hashmit";
+	 //System.out.println(d.indexOf('z'));	
+   // System.out.println(d.lastIndexOf('r'));
+    //System.out.println(d.contains("g"));
+	System.out.println(d.charAt(6));
+	System.out.println(g.toUpperCase());
+	}
+}

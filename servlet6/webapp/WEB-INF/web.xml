@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  
+  <servlet>
+  <servlet-name>one</servlet-name>
+  <servlet-class>com.revind.servletcookies</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>one</servlet-name>
+  <url-pattern>/cookiesone</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>cookiessecond</servlet-name>
+  <servlet-class>com.revind.servletsecondcookies</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>cookiessecond</servlet-name>
+  <url-pattern>/servletsecondcookies</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

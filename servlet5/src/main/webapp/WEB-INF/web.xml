@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+
+ 
+  <servlet>
+ <servlet-name>s3</servlet-name>
+ <servlet-class>com.rrm.servletbegin</servlet-class>
+ </servlet> 
+ 
+ <servlet-mapping>
+ <servlet-name>s3</servlet-name>
+ <url-pattern>/servletbegin</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+ <servlet-name>s4</servlet-name>
+ <servlet-class>com.rrm.servletmedal</servlet-class>
+ </servlet>
+ 
+ <servlet-mapping>
+ <servlet-name>s4</servlet-name>
+ <url-pattern>/servletmedal</url-pattern>
+ </servlet-mapping>
+ 
+   <!--   <servlet>
+	 <servlet-name>FormPage</servlet-name>
+	 <servlet-class>Examples.FormPage</servlet-class>
+ </servlet> 
+ 
+
+         
+<servlet>
+<servlet-name>servlet1</servlet-name>
+<servlet-class>com.rrm.servletfirst</servlet-class>
+</servlet> 
+
+<servlet-mapping>
+<servlet-name>servlet1</servlet-name>
+<url-pattern>/servletfirst</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>servlet2</servlet-name>
+<servlet-class>com.rrm.servletsecond</servlet-class>
+</servlet>
+
+ <servlet-mapping>
+ <servlet-name>servlet2</servlet-name>
+ <url-pattern>/servletsecond</url-pattern>
+ </servlet-mapping>   
+    
+    <servlet>
+  <servlet-name>sub</servlet-name>
+ <servlet-class>Examples.submmitservlet</servlet-class>
+ </servlet> 
+
+ <servlet>
+ <servlet-name>completeservlet</servlet-name>
+ <servlet-class>Examples.completeservlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>completeservlet</servlet-name>
+ <url-pattern>/completeservlet</url-pattern>
+ </servlet-mapping>
+ 
+ 
+ <servlet-mapping>
+ <servlet-name>sub</servlet-name>
+ <url-pattern>/submit</url-pattern>
+ </servlet-mapping>
+ 
+ 
+<servlet-mapping>
+	 <servlet-name>FormPage</servlet-name>
+	 <url-pattern>/FormPage</url-pattern>
+ </servlet-mapping>
+ --> 
+ 
+</web-app>

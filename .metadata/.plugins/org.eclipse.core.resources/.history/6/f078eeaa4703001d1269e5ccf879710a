@@ -1,0 +1,28 @@
+package stringconstructor;
+
+public class Stringmethod {
+
+	public static void main(String[] args) 
+	{
+	 String d="muzaffar";
+	String g="HASHMIT";
+	 //System.out.println(d.indexOf('z'));	
+   // System.out.println(d.lastIndexOf('r'));
+    //System.out.println(d.contains("g"));
+	//System.out.println(d.charAt(6));
+	//System.out.println(g.toUpperCase());
+	System.out.println(g.toLowerCase());
+	int a=10;
+	String f=String.valueOf(a);
+	System.out.println(f);
+	String u="ranjeet";
+	char[] c=u.toCharArray();
+	System.out.println(c);
+	StringBuffer s=new StringBuffer();
+	System.out.println(s.capacity());
+	s.append("congrates");
+	System.out.println(s.capacity());
+	s.append("marks");
+	System.out.println(s.capacity());
+	}
+}
